@@ -13,7 +13,7 @@ import Chat from './Chat';
 
 function Team(){
 
-    const server='https://projectboardsocket.herokuapp.com';
+    const server='http://localhost:4000';
     const socket = useRef();
 
     const theme=useTheme();
@@ -65,7 +65,7 @@ function Team(){
     
     useEffect(()=>{
         for(let i=0;i<rooms.length;i++){
-            if(rooms[i].room===room){
+            if(rooms[i].room===room){   
                 setMembers(rooms[i].users);
                 break;
             }
