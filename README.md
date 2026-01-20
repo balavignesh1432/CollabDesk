@@ -1,5 +1,5 @@
-# Project-Manager
-Project Manager, a web application that helps teams develop their project by providing kanban style lists(Todo, Doing, Done). 
+# CollabDesk
+CollabDesk, a web application that helps teams develop their project by providing kanban style lists(Todo, Doing, Done). 
 The task items can be added to the lists and assigned team members.
 Task items can be moved between lists.
 Project Progress is displayed with progress bar.
